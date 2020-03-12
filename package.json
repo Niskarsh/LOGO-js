@@ -1,0 +1,25 @@
+{
+  "name": "logo",
+  "version": "1.0.0",
+  "description": "Logo interpreter in javascript",
+  "main": "Logo.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Logo.js",
+    "start:dev": "nodemon --watch tests --watch src --watch Logo.js -e js,mjs,json,txt Logo.js"
+  },
+  "keywords": [
+    "logo",
+    "js",
+    "logo-js"
+  ],
+  "author": "Niskarsh",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
